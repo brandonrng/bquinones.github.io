@@ -1,0 +1,88 @@
+body {
+	font-family: "High Tower Text";
+	font-size: 1em;
+	color: #F44D54;
+	margin: 0px;
+}
+header {
+	padding: 0px; margin: 0px;
+}
+header h1 {
+	padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 5px;
+}
+header h2 {
+	text-indent: 50px; padding: 0px; margin: 0px;
+}
+nav {
+	background-color: #A52A2A;
+	color: #F5DEB3;
+	font-weight: bolder;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+nav ul {
+	margin: 0px; padding: 0px;
+}
+nav li {
+	display: inline; list-style: none; padding-left: 10px; padding-right: 10px;
+}
+nav a:link {
+	color: #E9967A;
+	text-decoration: none;
+}
+nav a:visited {
+	color: #FFA07A;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #DC143C;
+	background-color: #FFA6B3;
+}
+nav a:active {
+	color: #666666; text-decoration: none;
+}
+footer {
+	text-align: center; clear: both; font-size: .8em;
+}
+td, th {
+	vertical-align: top; padding: 5px;
+}
+ul {
+	list-style-type: square;
+}
+a:link {
+	text-decoration: underline;
+	color: #CD0206;
+}
+a:visited {
+	color: #8B0000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #3333CC; text-decoration: none;
+}
+a:active {
+	color: #663333; text-decoration: none;
+}
+.center {
+	text-align: center;
+}
+.floating {
+	float: right; margin-right: 20px; margin-left: 20px;
+}
+#wrapper {
+	margin: 0px; padding: 0px; width: 100%;
+}
+#content {
+	margin: 5px; padding: 5px;
+}
+#left {
+	float: left; width: 210px; padding: 5px;
+}
+#right {
+	margin-left: 225px;
+}
+.indent {
+	margin-left: 20px;
+}
